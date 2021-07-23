@@ -1,0 +1,16 @@
+{
+  "name": "monitor-uptime",
+  "version": "1.0.0",
+  "description": "monitor server status",
+  "main": "app.js",
+  "scripts": {
+    "start": "SET NODE_ENV=staging & nodemon app.js",
+    "prod": "NODE_ENV=production nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
